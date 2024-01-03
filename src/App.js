@@ -1,6 +1,7 @@
 import logo from './logo.svg';
+import './styles/reset.css';
 import './App.css';
-
+import List from './components/priceList.js';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <List/>
     </div>
   );
 }
